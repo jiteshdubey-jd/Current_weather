@@ -97,3 +97,18 @@ body {
   margin-top: 10px;
   display: none;
 }
+@media only screen and (max-width: 760px) {
+  .card {
+    width: 60%;
+  }
+  .search {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .search input {
+    width: 70%;
+  }
+  .search button {
+    width: 25%;
+  }
+}
